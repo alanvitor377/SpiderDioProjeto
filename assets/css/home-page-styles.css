@@ -2,6 +2,7 @@
 @import url('/assets/css/global.css');
 
 
+
 body {
     background-color: var(--primary-color)
 }
@@ -26,23 +27,28 @@ body::before {
 
     padding: 1rem 0;
     width: 100%;
-    text-align: center;
+    text-align:center;
+    position: relative;
 
 }
 
 .s-menu__item {
 
-    display: inline-block;
+    display:inline-block;
     text-transform: uppercase;
     margin: 0 1.25rem;
+    transform: translateZ(1vw);
+    
 
 }
 
-.s-menu__icon {
-    width: 2.5rem;
-    margin: 0 1.25rem;
-    vertical-align: middle;
+.s-menuicon {
 
+    width: 2.5rem;
+    margin: 0rem;
+    vertical-align: 50%;
+
+    align-content: center; 
 }
 
 .s-container {
